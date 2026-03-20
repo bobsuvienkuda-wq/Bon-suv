@@ -779,7 +779,58 @@ A: Yes! Google Colab and AWS EC2 with GPU support.
 **Q: Is this real-time?**
 A: On modern GPUs: 30+ FPS (real-time). CPU mode: ~5-10 FPS.
 
+---# Avatarify Python
+
+![](docs/mona.gif)
+
+**Photorealistic avatars for video-conferencing**
+
+Avatarify Python is a cutting-edge deep learning application that replaces your face with a photorealistic avatar in real-time during video conferences. It harnesses state-of-the-art computer vision and generative models to create immersive virtual avatars that track your facial movements and expressions naturally.
+
 ---
+
+## Table of Contents
+
+- [Project Definition](#project-definition)
+- [Key Features](#key-features)
+- [System Requirements](#system-requirements)
+- [Installation](#installation)
+  - [Linux Setup](#linux-setup)
+  - [macOS Setup](#macos-setup)
+  - [Windows Setup](#windows-setup)
+  - [Docker Setup](#docker-setup)
+  - [Google Colab Setup](#google-colab-setup)
+  - [Installation Troubleshooting](#installation-troubleshooting)
+- [Quick Start](#quick-start)
+- [Configuration](#configuration)
+- [Advanced Features](#advanced-features)
+- [Performance Optimization Guide](#performance-optimization-guide)
+- [Security, Privacy & Ethics](#security-privacy--ethics)
+- [Troubleshooting](#troubleshooting)
+- [Glossary](#glossary)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [License](#license)
+- [Resources](#resources)
+
+---
+
+## Project Definition
+
+### Overview
+
+Avatarify Python is a Python-based implementation of photorealistic avatar generation technology, designed to enhance video conferencing experiences. It allows users to replace their physical appearance with a virtual avatar while maintaining natural facial expressions and head movements.
+
+### Technology Stack
+
+- **AI Model**: Based on [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model) for efficient pose-guided image animation
+- **Framework**: PyTorch for deep learning inference
+- **Language**: Python 3.8+
+- **Platforms**: Linux, macOS, Windows
+- **Deployment Options**: Local, Docker, Google Colab, Remote GPU
+
+### Architecture
+
 
 ## Contact & Social
 
